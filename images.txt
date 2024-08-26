@@ -1,13 +1,14 @@
 # manticore
-manticoresearch/manticore
+#manticoresearch/manticore
 # superset项目
-node:20
-nginx:latest
-redis:7
-postgres:15
-node:20
+#node:20
+#nginx:latest
+#redis:7
+#postgres:15
+#node:20
+apachesuperset.docker.scarf.sh/apache/superset
 #支持私库
-k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
+#k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
 # xhofe/alist:latest
 #支持指定架构
 # --platform=linux/arm64 xiaoyaliu/alist
