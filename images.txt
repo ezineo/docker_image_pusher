@@ -1,15 +1,20 @@
 # manticore
 #manticoresearch/manticore
 # kafka镜像
-confluentinc/cp-zookeeper:latest
-confluentinc/cp-kafka:latest
+#confluentinc/cp-zookeeper:latest
+#confluentinc/cp-kafka:latest
+# redpanda镜像
+docker.redpanda.com/redpandadata/redpanda:v23.2.21
+docker.redpanda.com/redpandadata/console:v2.7.1
+quay.io/cloudhut/owl-shop:sha-042112b
+docker.redpanda.com/redpandadata/connectors:latest
 # superset项目
 #node:20
 #nginx:latest
 #redis:7
 #postgres:15
 #node:20
-apachesuperset.docker.scarf.sh/apache/superset
+#apachesuperset.docker.scarf.sh/apache/superset
 #支持私库
 #k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
 # xhofe/alist:latest
