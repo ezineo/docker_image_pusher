@@ -1,5 +1,8 @@
 # manticore
 #manticoresearch/manticore
+# kafka镜像
+confluentinc/cp-zookeeper:latest
+confluentinc/cp-kafka:latest
 # superset项目
 #node:20
 #nginx:latest
