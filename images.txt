@@ -8,6 +8,8 @@ docker.redpanda.com/redpandadata/redpanda:v23.2.21
 docker.redpanda.com/redpandadata/console:v2.7.1
 quay.io/cloudhut/owl-shop:sha-042112b
 docker.redpanda.com/redpandadata/connectors:latest
+# openhand镜像
+ghcr.io/all-hands-ai/runtime
 # superset项目
 #node:20
 #nginx:latest
