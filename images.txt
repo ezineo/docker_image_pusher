@@ -1,15 +1,21 @@
+# 前缀: registry.cn-hangzhou.aliyuncs.com/idealops/
 # manticore
 #manticoresearch/manticore
 # kafka镜像
 #confluentinc/cp-zookeeper:latest
 #confluentinc/cp-kafka:latest
+
 # redpanda镜像
+docker.redpanda.com/redpandadata/redpanda:v24.2.3
 docker.redpanda.com/redpandadata/redpanda:v23.2.21
 docker.redpanda.com/redpandadata/console:v2.7.1
 quay.io/cloudhut/owl-shop:sha-042112b
 docker.redpanda.com/redpandadata/connectors:latest
+docker.redpanda.com/redpandadata/redpanda:v23.2.21
+
 # openhand镜像
-ghcr.io/all-hands-ai/runtime
+#ghcr.io/all-hands-ai/runtime
+
 # superset项目
 #node:20
 #nginx:latest
